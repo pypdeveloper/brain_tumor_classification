@@ -1,0 +1,30 @@
+{
+    "os": "macOS-14.1.2-arm64-arm-64bit",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-02-26T17:33:46.846976",
+    "startedAt": "2024-02-26T17:33:35.862280",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Ayushs-MacBook-Pro.local",
+    "username": "ayushdeolasee",
+    "executable": "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 703.4633750915527
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

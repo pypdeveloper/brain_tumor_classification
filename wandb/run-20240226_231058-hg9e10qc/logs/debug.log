@@ -1,0 +1,32 @@
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_setup.py:_flush():76] Configure stats pid to 8929
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushdeolasee/.config/wandb/settings
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushdeolasee/Developer/brain_tumor_classification/wandb/settings
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-26 23:10:58,655 INFO    MainThread:8929 [wandb_init.py:_log_setup():526] Logging user logs to /Users/ayushdeolasee/Developer/brain_tumor_classification/wandb/run-20240226_231058-hg9e10qc/logs/debug.log
+2024-02-26 23:10:58,656 INFO    MainThread:8929 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/ayushdeolasee/Developer/brain_tumor_classification/wandb/run-20240226_231058-hg9e10qc/logs/debug-internal.log
+2024-02-26 23:10:58,656 INFO    MainThread:8929 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x2ea684190>
+2024-02-26 23:10:58,656 INFO    MainThread:8929 [wandb_init.py:init():566] calling init triggers
+2024-02-26 23:10:58,656 INFO    MainThread:8929 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'revision': 1, 'dataset': 'Brain Tumour', 'epochs': 10, 'loss_function': 'Cross Entropy Loss', 'optimizer_name': 'Adam'}
+2024-02-26 23:10:58,656 INFO    MainThread:8929 [wandb_init.py:init():616] starting backend
+2024-02-26 23:10:58,656 INFO    MainThread:8929 [wandb_init.py:init():620] setting up manager
+2024-02-26 23:10:58,656 INFO    MainThread:8929 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-02-26 23:10:58,657 INFO    MainThread:8929 [wandb_init.py:init():628] backend started and connected
+2024-02-26 23:10:58,658 INFO    MainThread:8929 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-26 23:10:58,658 INFO    MainThread:8929 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-26 23:10:58,658 INFO    MainThread:8929 [wandb_init.py:init():720] updated telemetry
+2024-02-26 23:10:58,658 INFO    MainThread:8929 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-26 23:11:12,621 WARNING MsgRouterThr:8929 [router.py:message_loop():77] message_loop has been closed
+2024-02-26 23:11:12,621 WARNING MsgRouterThr:8929 [router.py:message_loop():77] message_loop has been closed
+2024-02-26 23:11:13,909 ERROR   MainThread:8929 [wandb_init.py:init():1194] transport failed
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed

@@ -1,0 +1,72 @@
+
+  0%|          | 0/10 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+    exitcode = _main(fd, parent_sentinel)
+      File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/brain_tumor_classification/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+AttributeError: Can't get attribute 'transforms' on <module '__main__' (built-in)>
+  0%|          | 0/10 [00:03<?, ?it/s]

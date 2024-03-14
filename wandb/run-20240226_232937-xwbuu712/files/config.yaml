@@ -1,0 +1,59 @@
+wandb_version: 1
+
+learning_rate:
+  desc: null
+  value: 0.01
+revision:
+  desc: null
+  value: 1
+dataset:
+  desc: null
+  value: Brain Tumour
+epochs:
+  desc: null
+  value: 10
+loss_function:
+  desc: null
+  value: Cross Entropy Loss
+optimizer_name:
+  desc: null
+  value: Adam
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.16.3
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1708970388.535172
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      - 80
+      2:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      - 80
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.10.13
+      5: 0.16.3
+      8:
+      - 1
+      - 4
+      - 5
+      13: darwin-arm64
